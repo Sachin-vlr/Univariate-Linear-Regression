@@ -28,7 +28,6 @@ y = np.array(eval(input()))
 
 # Building the model
 # write your code here
-``` python
 x_mean=np.mean(x)
 y_mean=np.mean(y)
 num=0
