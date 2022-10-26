@@ -40,8 +40,9 @@ print (m, c)
 y_pred=m*x+c
 
 print (y_pred)
-```
+
 #Output
 ![output](/uni.png)
 ## Result
 Thus the univariate Linear Regression was implemented to fit a straight line using least squares.
+```
