@@ -21,13 +21,9 @@ To implement univariate Linear Regression to fit a straight line using least squ
 '''python
 import numpy as np
 
-# Preprocessing Input data
-
 x = np.array(eval(input()))
 y = np.array(eval(input()))
 
-# Building the model
-# write your code here
 x_mean=np.mean(x)
 y_mean=np.mean(y)
 num=0
@@ -42,7 +38,7 @@ c=y_mean-m*x_mean
 
 print (m, c)
 y_pred=m*x+c
-#Predict the output
+
 print (y_pred)
 ```
 #Output
